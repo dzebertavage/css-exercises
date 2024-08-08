@@ -1,0 +1,13 @@
+.stylish-button {
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.click-me {
+    background-color: #191919;
+    color: #fff;
+}
+
+.no-click-me {
+    background-color: #F4E87C;
+}
