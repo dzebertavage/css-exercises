@@ -89,3 +89,74 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* MY CODE */
+
+.container {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1fr 4fr;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 1 / 3;
+}
+
+.logo {
+  justify-self: start;
+}
+
+.menu, .nav {
+  align-self: center;
+}
+
+.menu > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nav > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul {
+  list-style: none;
+}
+
+.sidebar {
+  display: grid;
+  grid-row: 2 / 4;
+  gap: 50px;
+}
+
+.side-content {
+  display: grid;
+  align-items: center;
+}
+
+.sidebar .photo {
+  display: grid;
+  align-items: center;
+}
+
+.article {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  height: 200px;
+}
+
+.footer {
+  grid-column: 1 / 3;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
